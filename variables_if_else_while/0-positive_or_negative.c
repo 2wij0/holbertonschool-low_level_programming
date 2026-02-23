@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- * main - Assigns a random number to n and prints if it is positive, negative, or zero
+ * main - Assigns a random number to n and prints
+ * whether it is positive, negative, or zero
  *
  * Return: Always 0
  */
