@@ -1,6 +1,6 @@
-# Hello World
+# Low Level Programming
 
-This directory contains introductory C scripts and programs.
+This repository contains C programming projects for Holberton School.
 
-## Files
-- `0-preprocessor`: Script that runs a C file through the preprocessor and saves the result into a file called `c`.
+## Projects
+- hello_world
