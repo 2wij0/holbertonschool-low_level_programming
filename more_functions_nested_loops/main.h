@@ -3,8 +3,8 @@
 
 /**
  * File: main.h
- * Description: Header file containing prototypes for all functions
- * used in the more_functions_nested_loops directory.
+ * Desc: Header file containing prototypes for all functions
+ * in the more_functions_nested_loops project.
  */
 
 int _putchar(char c);
