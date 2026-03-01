@@ -1,12 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * File: main.h
- * Desc: Header file containing prototypes for all functions
- * in the more_functions_nested_loops project.
- */
-
+/* Prototypes for previous tasks */
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
@@ -18,5 +13,8 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
+
+/* Prototype for the current task */
+void print_number(int n);
 
 #endif /* MAIN_H */
