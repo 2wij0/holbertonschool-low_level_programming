@@ -6,7 +6,7 @@
  * Desc: Header file containing prototypes for all functions
  * used in the pointers_arrays_strings directory.
  */
-
+void set_string(char **s, char *to);
 int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
