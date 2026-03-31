@@ -1,13 +1,24 @@
-int cp(void){
-    char *s;
+#include <stdlib.h>
+#include "main.h"
 
-    s = malloc(12);
-    if (s == NULL) // Always check for failure!
-        return (1); 
+/**
+ * malloc_checked - Allocates memory using malloc.
+ * @b: The number of bytes to allocate.
+ *
+ * Return: A pointer to the allocated memory.
+ * If malloc fails, the function causes normal process termination
+ * with a status value of 98.
+ */
+void *malloc_checked(unsigned int b)
+{
+	void *ptr;
 
-    strcpy(s, "Best School");
-    /* ... do something with s ... */
-    
-    free(s); // Don't forget to free what you malloc'd
-    return (0);
+	ptr = malloc(b);
+
+	if (ptr == NULL)
+	{
+		exit(98);
+	}
+
+	return (ptr);
 }
